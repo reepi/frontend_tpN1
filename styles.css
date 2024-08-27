@@ -31,6 +31,7 @@ body{
     color: black;
     min-height: 100vh; /* esto hace que ocupe toda la pantalla*/
     margin: 0;
+    transition: 200ms;
 }
 
 main{
@@ -52,6 +53,7 @@ header{
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    font-weight: lighter;
     img{
         margin-left: auto;
         margin-right: auto;
@@ -80,6 +82,7 @@ footer{
         font-size: xx-large;
         padding: 0 50px;
     }
+    
 }
 
 .poke-descripcion{

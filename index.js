@@ -1,8 +1,7 @@
-//Agregar el aside a cada div, que agregue un ASIDE a cada div
-//Cambie el color de fondo de acuerdo al pokemon que se clickee
-//En el aside, poner para escuchar un sonidito
 
+// Cambios de colores de fondo
 function cambiarFondo(colorPrincipal,colorSecundario){
+    //para volver al color inicial
     if(document.documentElement.style.getPropertyValue('--color-principal') === colorPrincipal){
         document.documentElement.style.setProperty('--color-principal','white');
         document.documentElement.style.setProperty('--color-secundario','beige');
