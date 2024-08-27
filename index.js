@@ -31,7 +31,6 @@ document.getElementById('pokebola3')
 document.getElementById('pokebola4')
     .addEventListener("click",()=> {
         cambiarFondo("rgb(248, 231, 145)",'rgb(104, 99, 99)');
-        document.getElementsByTagName("body").setProperty("color:white");
     }
 );
 
